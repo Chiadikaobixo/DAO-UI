@@ -1,8 +1,8 @@
-export const DAO_CONTRACT_ADDRESS = "0x29F911C9E55d5f63bFF57402633889D0d6a60e6e";
+export const DAO_CONTRACT_ADDRESS = "0xf5c7c0e02bBDE1d5606C5FA092F9E8D670E07B8b";
 
 // addres of my CxoNft-collect @
 // https://github.com/Chiadikaobixo/my-solidity/blob/master/CxoNFT-collection/contracts/CxoNft.sol
-export const CXONFT_COLLECTION_CONTRACT_ADDRESS = "0x664E672487B1067492B101d2179864acAE02a991";
+export const CXONFT_COLLECTION_CONTRACT_ADDRESS = "0x71F202923383B02c98C48618Dd3f18Df97A283df";
 
 export const DAO_ABI = [
   {

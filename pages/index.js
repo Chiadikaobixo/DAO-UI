@@ -176,9 +176,9 @@ export default function Home() {
     const web3Provider = new providers.Web3Provider(provider);
 
     const { chainId } = await web3Provider.getNetwork();
-    if (chainId !== 4) {
-      window.alert("Please switch to the Rinkeby network!");
-      throw new Error("Please switch to the Rinkeby network");
+    if (chainId !== 5) {
+      window.alert("Please switch to the Goerli network!");
+      throw new Error("Please switch to the Goerli network");
     }
 
     if (needSigner) {
@@ -216,7 +216,7 @@ export default function Home() {
   useEffect(() => {
     if (!walletConnected) {
       web3ModalRef.current = new Web3Modal({
-        network: "rinkeby",
+        network: "Goerli",
         providerOptions: {},
         disableInjectedProvider: false,
       });
